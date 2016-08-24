@@ -32,11 +32,17 @@ section.intro p a {
   color: #0645AD;
 }
 
+section.icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 
 div.icon-cont {
   width: 24.6%;
-  display: inline-block;
-  padding: 15px 50px;
+  padding: 15px 40px;
+
 }
 
 div.icon-cont img {
