@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0645AD;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+section.intro p {
+  font-size: 20px;
+}
+
+section.intro p.welcome {
+  text-align: right;
+  font-weight: 800;
+}
+
+section.intro p a {
+  text-decoration: none;
+  color: #0645AD;
+}
+
+
+div.icon-cont {
+  width: 24.6%;
+  display: inline-block;
+  padding: 15px 50px;
+}
+
+div.icon-cont img {
+  width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  text-align: center;
+}
